@@ -1,0 +1,14 @@
+{
+  "name": "project-emote",
+  "version": "1.0.0",
+  "description": "A tool that takes a picture of your face, guesses your emotion, and recommends a Spotify playlist based on certain parameters. Also provides analytics on average city emotion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webcamjs": "^1.0.25"
+  }
+}
