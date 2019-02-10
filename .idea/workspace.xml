@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8a9a1b5-4e66-4aff-85f6-7e04af28dc4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/emotion-recognition/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/emotion-recognition/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/css/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/js/PIE.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/ie8.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/ie9.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/libs/_skel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/assets/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/images/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/DOCS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/click-to-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/combo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/constraints.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/continuous.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/crop-large.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/crop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/flash-disabled.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/flip-flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/flip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/hd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/ios-large.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/large.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/reset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/sfx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/shutter.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/demos/shutter.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/Webcam.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/Webcam.fla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/com/adobe/images/BitString.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/com/adobe/images/JPGEncoder.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/com/adobe/images/PNGEncoder.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/flash/mx/utils/Base64Encoder.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/webcam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/webcam.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/node_modules/webcamjs/webcam.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/package.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#center#0;n#header#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#1;n#header#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#textarea#0;n#header#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/FaceAPI.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="291">
+                  <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>uriBase</find>
+      <find>sourceImage</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Web App/FaceAPI.js" />
+        <option value="$PROJECT_DIR$/webcam.js" />
+        <option value="$PROJECT_DIR$/emotion-recognition/index.html" />
+        <option value="$PROJECT_DIR$/FaceAPI.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project Emote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project Emote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project Emote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project Emote" type="462c0819:PsiDirectoryNode" />
+              <item name="emotion-recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project Emote/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8a9a1b5-4e66-4aff-85f6-7e04af28dc4d" name="Default Changelist" comment="" />
+      <created>1549752594914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549752594914</updated>
+      <workItem from="1549752596112" duration="4742000" />
+      <workItem from="1549767475322" duration="7748000" />
+      <workItem from="1549780393847" duration="2122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14612000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web-app/index.html" />
+    <entry file="file://$PROJECT_DIR$/web-app/FaceAPI.js" />
+    <entry file="file://$PROJECT_DIR$/webcam.js" />
+    <entry file="file://$PROJECT_DIR$/emotion-recognition/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#center#0;n#header#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#header#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#header#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
