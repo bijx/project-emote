@@ -7,10 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<script defer src="script.js"></script>
+<!--<script defer src="script.js"></script>-->
 
 <body>
     <video id="video" width="720" height="560" autoplay muted></video>
 </body>
+
+<script>
+
+    var errorCallback = function (e) {
+        console.log('Reeeejected!', e);
+    };
+
+    var successCallback = function (localMediaStream) {
+        var video = document.querySelector('video');
+        video.srcObject = localMediaStream;
+    }
+    navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+    window.URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
+
+
+    if (navigator.getUserMedia) {
+        navigator.getUserMedia({
+            video: true
+        }, successCallback, errorCallback);
+    } else {
+        console.log('Native device media streaming (getUserMedia) not supported in this browser.');
+        // Display a friendly "sorry" message to the user.
+    }
+
+</script>
 
 </html>

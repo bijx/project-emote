@@ -24,7 +24,7 @@ function processImage() {
     // this region.
     var uriBase = "https://westus.api.cognitive.microsoft.com/face/v1.0/detect?";
 
-   // document.getElementById("demo").innerText = 5+6;
+    // document.getElementById("demo").innerText = 5+6;
 
     // Request parameters.
     var params = {
@@ -39,7 +39,7 @@ function processImage() {
     var sourceImageUrl = document.getElementById("pic_result").value;
     var sURL = new xParse.File.Parse("testing.jpg", sourceImageUrl);
 
-        // Perform the REST API call.
+    // Perform the REST API call.
     $.ajax({
         url: uriBase + $.param(params),
 

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "face-api.js": "^0.21.0",
     "webcamjs": "^1.0.25"
   }
 }
