@@ -3,47 +3,53 @@
 	Project Emote
 -->
 <html>
+
 <head>
     <title>Project Emote - Find music based on your emotion</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css"/>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
+
+<script defer src="script.js"></script>
+
 <body class="is-loading">
 
-<!-- Wrapper -->
-<div id="wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-    <!-- Main -->
-    <section id="main">
-        <header>
-            <!--<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>-->
-            <h1>Project Emote</h1>
-            <p>Generate music based on your emotion</p>
-            <hr>
-            <center>
-                <div id="camera" style="box-shadow: 0px 0px 25px #BEBEBE;"></div>
-                <div id="results">
-                    <h2 id="resultsH2"></h2>
-                    <img id="pic_result" src="">
-                </div>
-            </center>
+        <!-- Main -->
+        <section id="main">
+            <header>
+                <!--<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>-->
+                <h1>Project Emote</h1>
+                <p>Generate music based on your emotion</p>
+                <hr>
+                <center>
+                    <video id="video" width="720" height="560" autoplay muted
+                        style="box-shadow: 0px 0px 25px #BEBEBE;"></video>
+                    <!--<div id="results">
+                        <h2 id="resultsH2"></h2>
+                        <img id="pic_result" src="">
+                    </div>-->
+                </center>
 
-            <br>
-            <a href="#" class="button" onClick="take_snapshot()">Take Picture</a> <br>
-            <a id="generate" href="#" class="button" onClick="processImage()" style="margin-top: 1em; display: none">Generate
-                Playlist</a>
+                <br>
+                <a href="#" class="button" onClick="take_snapshot()">Take Picture</a> <br>
+                <a id="generate" href="#" class="button" onClick="processImage()"
+                    style="margin-top: 1em; display: none">Generate
+                    Playlist</a>
 
-            <h2></h2>
-            <textarea id="responseTextArea" class="UIInput"
-                      style="width:100%; height:400px; display: none; font-size: 16px" ></textarea>
-        </header>
-        <!--
+                <h2></h2>
+                <textarea id="responseTextArea" class="UIInput"
+                    style="width:100%; height:400px; display: none; font-size: 16px"></textarea>
+            </header>
+            <!--
         <hr />
         <h2>Extra Stuff!</h2>
         <form method="post" action="#">
@@ -80,58 +86,59 @@
         </form>
         <hr />
         -->
-        <footer>
+            <footer>
 
+            </footer>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; AP Kanwar, Bijan Samiee, Sanaz Rezahi</li>
+            </ul>
         </footer>
-    </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <ul class="copyright">
-            <li>&copy; AP Kanwar, Bijan Samiee, Sanaz Rezahi</li>
-        </ul>
-    </footer>
+    </div>
 
-</div>
-
-<!-- Scripts -->
-<!--[if lte IE 8]>
+    <!-- Scripts -->
+    <!--[if lte IE 8]>
 <script src="assets/js/respond.min.js"></script><![endif]-->
-<script type="text/javascript" src="node_modules/webcamjs/webcam.min.js"></script>
-<script type="text/javascript" src="node_modules/image-data-uri/lib/image-data-uri.js"></script>
-<script>
-    if ('addEventListener' in window) {
-        window.addEventListener('load', function () {
-            document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+    <script type="text/javascript" src="node_modules/webcamjs/webcam.min.js"></script>
+    <script type="text/javascript" src="node_modules/image-data-uri/lib/image-data-uri.js"></script>
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function () {
+                document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+            });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+    </script>
+
+    <script language="JavaScript">
+        /*Webcam.set({
+            width: 320,
+            height: 240,
+            dest_width: 640,
+            dest_height: 480,
+            image_format: 'jpeg',
+            jpeg_quality: 90
         });
-        document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-    }
-</script>
+        Webcam.attach('#camera');
 
-<script language="JavaScript">
-    Webcam.set({
-        width: 320,
-        height: 240,
-        dest_width: 640,
-        dest_height: 480,
-        image_format: 'jpeg',
-        jpeg_quality: 90
-    });
-    Webcam.attach('#camera');
+        function take_snapshot() {
 
-    function take_snapshot() {
+            // Take snapshot and get image data
+            Webcam.snap(function (data_uri) {
+                document.getElementById('camera').hidden = true;
+                document.getElementById('responseTextArea').style.display = "block";
+                document.getElementById('generate').style.display = "inline-block";
+                document.getElementById('resultsH2').innerText = "Looking Great";
+                document.querySelector("#pic_result").src = data_uri;
+            });
+        }*/
+    </script>
 
-        // Take snapshot and get image data
-        Webcam.snap(function (data_uri) {
-            document.getElementById('camera').hidden = true;
-            document.getElementById('responseTextArea').style.display = "block";
-            document.getElementById('generate').style.display = "inline-block";
-            document.getElementById('resultsH2').innerText = "Looking Great";
-            document.querySelector("#pic_result").src = data_uri;
-        });
-    }
-</script>
-
-<script src="FaceAPI.js"></script>
+    <script src="FaceAPI.js"></script>
 </body>
+
 </html>
